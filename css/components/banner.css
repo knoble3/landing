@@ -1,0 +1,76 @@
+.banner {
+  background-image: url('https://youtap.com/wp-content/uploads/2018/05/what-is-blockchain-the-technology-explained.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  text-shadow: 0.5px 0.5px black;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+  opacity: .9;
+  font-size: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #1abf75;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0be885;
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.card img {
+  height: 100px;
+}
+
+.footer {
+    text-align: center;
+    padding: 60px;
+    background-color: #005B95;
+}
+
+.footer p {
+    color: #6B6C6C;
+}
+
+.footer a {
+  font-size: 30px;
+  color: #1abf75;
+}
